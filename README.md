@@ -1,6 +1,12 @@
-# Interest rate input field test cases
+# Interest rate input field automated test cases - Cypress
 
 ## Project Description
+
+This project is part of an interview assignment designed to demonstrate test automation skills.
+
+The assignment was to:
+- Create a [test plan](https://docs.google.com/spreadsheets/d/1uuKeqUgh16yLjZ94JiYwaf3m596AqGC-yljasN1PQw8/edit?usp=sharing) for the Interest Rate input field on the [Zillow Mortgage Calculator](https://www.zillow.com/mortgage-calculator/) page;
+- Automate two of the test cases using Cypress. 
 
 ## How to work with this project
 
