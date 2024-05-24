@@ -50,6 +50,7 @@ npx cypress open
 7. Click on `interest_rate_tests.cy.js` -> the tests will run (and hopefully pass)
 
 P.S. Alternatively, you can run the tests in the terminal using `npx cypress run` instead of steps 4-7.
+For more details on using the command line refer to the [official documentation](https://docs.cypress.io/guides/guides/command-line#cypress-run). 
 
 ## Additional Notes
 
