@@ -55,10 +55,11 @@ For more details on using the command line refer to the [official documentation]
 ## Additional Notes
 
 ### Considerations for the future: 
-- choosing better and more reliable CSS selectors;
-- using environment variables;
-- implementing custom commands;
-- creating a comprehensive test structure with tests and test suites that cover all the most important parts of the application;
-- making sure the tests are independent and can be run together and separately;
-- adding test data sets; 
-- setting up Continuous Integration (CI).
+- choose better and more reliable CSS selectors;
+- implement a better way of waiting for the page to fully load after an action than using `cy.wait()`;
+- use environment variables;
+- implement custom commands;
+- create a comprehensive test structure with tests and test suites that cover all the most important parts of the application;
+- make sure the tests are independent and can be run together and separately;
+- add test data sets; 
+- set up Continuous Integration (CI).
