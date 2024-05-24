@@ -49,7 +49,7 @@ npx cypress open
 6. Choose your browser -> Click on "Start E2E Testing"
 7. Click on `interest_rate_tests.cy.js` -> the tests will run (and hopefully pass)
 
-P.S. Alternatively, you can run the tests in the terminal using `npx cypress open` instead of steps 4-7.
+P.S. Alternatively, you can run the tests in the terminal using `npx cypress run` instead of steps 4-7.
 
 ## Additional Notes
 
