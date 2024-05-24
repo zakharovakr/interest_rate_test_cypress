@@ -51,5 +51,11 @@ npx cypress open
 
 ## Additional Notes
 
-
-
+### Considerations for the future: 
+- choosing better and more reliable CSS selectors;
+- using environment variables;
+- implementing custom commands;
+- creating a comprehensive test structure with tests and test suites that cover all the most important parts of the application;
+- making sure the tests are independent and can be run together and separately;
+- adding test data sets; 
+- setting up Continuous Integration (CI).
