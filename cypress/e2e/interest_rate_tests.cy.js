@@ -25,16 +25,18 @@ describe('Interest Rate Input Field Scenarios', () => {
                 cy.get('body').click(0, 0)
 
                 // Wait for both API calls to complete (page fully loads)
-                cy.wait(['@updatePayment', '@updatePayment'])
+                cy.wait(['@updatePayment', '@updatePayment']).then(()=>{
 
                 //Get the text value for "Your payment" again and compare it to the previous value
                 //The values should not match
-                cy.get('text[y="20"]', { timeout: 20000 })
+                    cy.get('text[y="20"]')
                     .invoke('text')
                     .should((your_payment_updated) => {
                         expect(your_payment_default).not.to.eq(your_payment_updated)
                     }
                     )
+
+                })
 
             })
     })
